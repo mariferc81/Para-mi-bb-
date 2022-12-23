@@ -1,0 +1,9 @@
+ body {
+    background-color: lightblue;
+  }
+  /* Estilos para el mensaje */
+  h1 {
+    color: hotpink;
+    font-family: sans-serif;
+    text-align: center;
+  }

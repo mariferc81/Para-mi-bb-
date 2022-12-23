@@ -1,0 +1,43 @@
+<html>
+  <head>
+
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <style>
+      /* Estilos para ocultar el mensaje al principio */
+      #mensaje {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Este es el mensaje que se mostrará de manera sorpresa -->
+    <h1 id="mensaje" class="color-bonito">Te quiero mucho mi bb precioso<3 </h1>
+     
+<img src="tequieromuchp.jfif" alt="Hola guapo">
+
+  <style>
+  /* Estilos para ocultar el mensaje al principio */
+  #mensaje {
+    display: none;
+  }
+  /* Estilos para darle un color alegre al mensaje */
+  .color-bonito {
+    color: hotpink;
+    text-shadow: 0 0 10px yellow;
+  }
+</style>
+
+
+    <!-- Este botón activará el mensaje -->
+    <button onclick="mostrarMensaje()">Pulse el boton cuando sea necesario</button>
+    <!-- Este es el script que muestra el mensaje cuando se hace clic en el botón -->
+    <script>
+      function mostrarMensaje() {
+        // Obtén el elemento del mensaje
+        var mensaje = document.getElementById("mensaje");
+        // Muestra el mensaje
+        mensaje.style.display = "block";
+      }
+    </script>
+  </body>
+</html>
